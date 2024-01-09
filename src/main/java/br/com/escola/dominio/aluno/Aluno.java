@@ -1,4 +1,4 @@
-package br.com.escola.aluno.aluno;
+package br.com.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,15 +24,19 @@ public class Aluno {
 
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String  getCpf() {
+        return cpf.getNumero();
     }
 
     public String getNome() {
         return nome;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public  List<Telefone> getTelefones(){
+        return telefones;
     }
 }

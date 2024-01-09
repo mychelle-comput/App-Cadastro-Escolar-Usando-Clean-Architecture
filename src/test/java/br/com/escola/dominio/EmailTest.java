@@ -1,6 +1,6 @@
-package br.com.escola.aluno;
+package br.com.escola.dominio;
 
-import br.com.escola.aluno.aluno.Email;
+import br.com.escola.dominio.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

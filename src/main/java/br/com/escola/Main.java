@@ -1,4 +1,4 @@
-package br.com.escola.aluno;
+package br.com.escola;
 
 public class Main {
     public static void main(String[] args) {

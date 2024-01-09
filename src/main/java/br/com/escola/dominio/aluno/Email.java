@@ -1,4 +1,4 @@
-package br.com.escola.aluno.aluno;
+package br.com.escola.dominio.aluno;
 
 public class Email {
     private String endereco;
@@ -10,4 +10,7 @@ public class Email {
         this.endereco = endereco;
     }
 
+    public String getEndereco() {
+        return getEndereco();
+    }
 }
