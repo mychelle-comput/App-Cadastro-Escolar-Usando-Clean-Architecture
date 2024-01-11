@@ -23,10 +23,10 @@ Clean Architecture (Arquitetura Limpa) é como você organiza os componentes do 
 
 ## Back end
 
-- **Java(POO)**
+- **Java (POO)**
 - **JDBC**
 - **JUnit5**
-- **Maven:**
+- **Maven**
 - **Intellij**
 
 # Referências
