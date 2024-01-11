@@ -1,4 +1,4 @@
-package br.com.escola.infra.aluno;
+package br.com.escola.infraestrutura.aluno;
 
 import br.com.escola.dominio.aluno.CifradorDeSenha;
 

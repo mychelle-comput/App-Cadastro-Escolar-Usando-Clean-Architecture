@@ -1,4 +1,4 @@
-package br.com.escola.infra.aluno;
+package br.com.escola.infraestrutura.aluno;
 
 import br.com.escola.dominio.aluno.Aluno;
 import br.com.escola.dominio.aluno.AlunoNaoEncontrado;
@@ -24,11 +24,10 @@ public class AlunoRepositoryEmMemoria implements AlunoRepository {
                     .findFirst()
                     .orElseThrow(() -> new AlunoNaoEncontrado(cpf));
         }
-
         @Override
         public List<Aluno> listarTodosAlunosMatriculados() {
             return this.matriculados;
         }
 
-    }
+}
 
