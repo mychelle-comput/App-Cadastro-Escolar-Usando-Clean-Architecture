@@ -30,6 +30,7 @@ Clean Architecture (Arquitetura Limpa) é como você organiza os componentes do 
 - **Intellij**
 
 # Referências
+-Alura (https://cursos.alura.com.br).
 
 
 
